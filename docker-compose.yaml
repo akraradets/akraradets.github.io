@@ -1,0 +1,28 @@
+version: '3.9'
+services:
+  dev:
+    image: akraradets/vue:v0.0.1
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    ports:
+      - 9000:80
+    labels:
+      # Allow Traefik to talk with your service
+      - traefik.enable=true
+      # Tell Traefik to use port 80
+      - traefik.http.services.dev-githubio.loadbalancer.server.port=80
+      # This config you domain name. By default, your subdomain is dev-githubio
+      # If you which to change the subdomain name, you uncomment the below configuration
+      - traefik.http.routers.dev-githubio.rule=Host(`githubio.localhost`)
+      # Below is for enable SSL.
+      - traefik.http.routers.dev-githubio.tls=true
+      # - traefik.http.routers.dev-githubio.tls.certresolver=production
+      - traefik.http.routers.dev-githubio.entrypoints=websecure
+    volumes:
+      - ./project:/root/project
+      - ./docs:/root/docs
+      - vscode-dev:/root/.vscode-server
+
+volumes:
+  vscode-dev:

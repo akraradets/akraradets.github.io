@@ -24,7 +24,15 @@ services:
       - ./docs:/root/docs
       - node_modules:/root/project/node_modules
       - vscode-dev:/root/.vscode-server
+    networks:
+      - default
+      - traefik_default
 
 volumes:
   vscode-dev:
   node_modules:
+
+networks:
+  default:
+  traefik_default:
+    external: true

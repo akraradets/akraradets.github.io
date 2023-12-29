@@ -10,23 +10,19 @@ https://akraradets.github.io
 
 ## To dev
 
-Build with docker-compose.
+Use `vscode` to dev. Install `remote development` and `docker` extension.
+Run this to build and run the project.
 
 ```shell
-docker compose build
+docker compose up -d --build
 ```
 
-Run project
+To stop and clear containers and network
 ```shell
-docker compose up dev
+docker compose down
 ```
 
-To add dependency
-```shell
-docker compose run --rm dev yarn add <lib>
-```
-
-To build.
-```shell
-docker compose run --rm  dev yarn build
+If you want to clear everything.
+```sh
+docker compose down --rmi all --volumes
 ```

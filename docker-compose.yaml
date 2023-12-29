@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: .Dockerfile
     ports:
-      - 9000:80
+      - 9000:9000
     labels:
       # Allow Traefik to talk with your service
       - traefik.enable=true

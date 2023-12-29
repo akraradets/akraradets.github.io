@@ -11,4 +11,4 @@ RUN --mount=type=bind,source=./project/package.json,target=package.json,readwrit
 
 COPY ./project /root/project
 
-CMD yarn serve
+CMD tail -f /dev/null

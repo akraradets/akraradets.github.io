@@ -13,6 +13,8 @@ https://akraradets.github.io
 Use `vscode` to dev. Install `remote development` and `docker` extension.
 Run this to build and run the project.
 
+> Note that if you don't have `traefik`, run all `docker-compose` with `-f docker-compose_notraefik.yaml` option.
+
 ```shell
 docker compose up -d --build
 ```

@@ -20,18 +20,11 @@ services:
       # - traefik.http.routers.dev-githubio.tls.certresolver=production
       - traefik.http.routers.dev-githubio.entrypoints=websecure
     volumes:
-      # - ./project:/root/project
+      - ./project:/root/project
       - ./docs:/root/docs
-      # - vscode-dev:/root/.vscode-server
-    develop:
-      watch:
-        - action: sync
-          path: ./project
-          target: /root/project
-          ignore:
-            - node_modules/
-        - action: rebuild
-          path: ./project/package.json
+      - node_modules:/root/project/node_modules
+      - vscode-dev:/root/.vscode-server
 
 volumes:
   vscode-dev:
+  node_modules:

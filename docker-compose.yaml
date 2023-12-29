@@ -22,7 +22,7 @@ services:
     volumes:
       # - ./project:/root/project
       - ./docs:/root/docs
-      - vscode-dev:/root/.vscode-server
+      # - vscode-dev:/root/.vscode-server
     develop:
       watch:
         - action: sync
@@ -31,7 +31,7 @@ services:
           ignore:
             - node_modules/
         - action: rebuild
-          path: package.json
+          path: ./project/package.json
 
 volumes:
   vscode-dev:

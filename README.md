@@ -4,9 +4,7 @@ https://akraradets.github.io
 
 ## What I use
 - Docker, of course
-- Vue (frontend framework)
-- Bulma (CSS framework)
-
+- Vuetify (Because I hate HTML/CSS so much)
 
 ## To dev
 

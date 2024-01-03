@@ -1,15 +1,10 @@
-node_modules
-yarn-error.log
 .DS_Store
-project_arch
-
-# Gen from vuetify
+node_modules
 /dist
 
 # local env files
 .env.local
 .env.*.local
-.env
 
 # Log files
 npm-debug.log*

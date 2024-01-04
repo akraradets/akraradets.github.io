@@ -35,6 +35,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: "https://akraradets.github.io",
   define: { 'process.env': {} },
   resolve: {
     alias: {
@@ -55,6 +56,7 @@ export default defineConfig({
     host: "0.0.0.0",
   },
   build:{
-    outDir: '/root/docs'
+    outDir: '/root/docs',
+    emptyOutDir: true,
   }
 })

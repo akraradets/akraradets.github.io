@@ -34,6 +34,7 @@
 <script lang="ts" setup>
 import { useTheme } from 'vuetify';
 import { useCookie } from 'nuxt/app'
+import { onMounted } from 'vue';
 
 const theme = useTheme();
 const cookie = useCookie<string>('theme');
@@ -49,4 +50,10 @@ const toggleTheme = () => {
   setTheme()
 }
 
+
+onMounted(() => {
+  
+  setTheme()
+
+})
 </script>

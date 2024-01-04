@@ -1,1 +1,0 @@
-import{T as t,a2 as s,o as a,c as e,aT as n}from"./entry.832YQjsi.js";const u=t({tag:{type:String,default:"div"}},"tag");function d(){const o=s(!1);return a(()=>{window.requestAnimationFrame(()=>{o.value=!0})}),{ssrBootStyles:e(()=>o.value?void 0:{transition:"none !important"}),isBooted:n(o)}}export{u as m,d as u};

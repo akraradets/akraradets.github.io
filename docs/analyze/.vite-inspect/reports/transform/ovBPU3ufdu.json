@@ -1,0 +1,17 @@
+{
+  "resolvedId": "virtual:nuxt:/root/docs/css.mjs",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1704350686641,
+      "end": 1704350686641
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1704350686641,
+      "end": 1704350686641,
+      "order": "normal"
+    }
+  ]
+}

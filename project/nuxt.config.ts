@@ -7,5 +7,6 @@ export default defineNuxtConfig({
     port: 9000,
     host: "0.0.0.0"
   },
-  buildDir: "/root/docs"
+  buildDir: "/root/docs",
+  ssr: true
 })

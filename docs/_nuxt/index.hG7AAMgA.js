@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.x3n3nnut.js";import{v as n,t as r}from"./entry.832YQjsi.js";const t={};function c(o,a){return r(),n("h1",null,"Index page 2")}const f=e(t,[["render",c]]);export{f as default};

@@ -32,37 +32,21 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, ref } from 'vue';
 import { useTheme } from 'vuetify';
-// import { useCookie } from '#imports'
 import { useCookie } from 'nuxt/app'
-const items = [
-  { title: 'Click Me' },
-  { title: 'Click Me' },
-  { title: 'Click Me' },
-  { title: 'Click Me 2' },
-]
-
-
 
 const theme = useTheme();
 const cookie = useCookie<string>('theme');
-cookie.value = cookie.value || 'light'
-
-var isDark = 'light'
+var isDark = cookie.value
 const setTheme = () => {
   theme.global.name.value = cookie.value
   isDark = cookie.value
 }
+
 const toggleTheme = () => {
   const selected_theme = cookie.value != 'light' ? 'light' : 'dark'
   cookie.value = selected_theme
   setTheme()
 }
 
-onMounted(() => {
-  setTheme()
-})
-
-//
 </script>

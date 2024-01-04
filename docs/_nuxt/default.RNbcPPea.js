@@ -1,0 +1,1 @@
+import{_ as t}from"./AppBar.vue.AtQVkNrc.js";import{_ as e}from"./View.vue.EMILVQ_U.js";import{d as o,t as r,L as s,A as _,V as m,z as a}from"./entry.7jmSm7oI.js";import"./ssrBoot.gmH8_GR-.js";const d=o({__name:"default",setup(n){return(p,c)=>(r(),s(m,null,{default:_(()=>[a(t),a(e)]),_:1}))}});export{d as default};

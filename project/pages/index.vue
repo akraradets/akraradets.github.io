@@ -7,13 +7,34 @@
           <div style="width:80px;height:80px;position:relative; margin-top: 15px;"><iframe
               src="https://giphy.com/embed/gx54W1mSpeYMg" width="100%" height="100%" style="position:absolute"
               frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-
         </v-row>
       </v-col>
       <v-col cols="12" sm="12" md="6" xl="4">
         <v-row no-gutters>
           <v-col cols="12">
-            <IndexPresent></IndexPresent>
+            <v-card>
+              <v-tabs v-model="tab" align-tabs="center">
+                <v-tab :value="1">Résumé</v-tab>
+                <v-tab :value="2">Academic</v-tab>
+                <v-tab :value="3">Work</v-tab>
+                <v-tab :value="4">Hobby</v-tab>
+              </v-tabs>
+              <v-divider></v-divider>
+              <v-window v-model="tab">
+                <v-window-item :key=1 :value=1>
+                  <IndexResume></IndexResume>
+                </v-window-item>
+                <v-window-item :key=2 :value=2>
+                  Insert Academic life
+                </v-window-item>
+                <v-window-item :key=3 :value=3>
+                  Insert Work life
+                </v-window-item>
+                <v-window-item :key=4 :value=3>
+                  Insert Hobby
+                </v-window-item>
+              </v-window>
+            </v-card>
           </v-col>
         </v-row>
         <!-- <v-row>
@@ -54,3 +75,8 @@
     </v-row>
   </v-container>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+const tab = ref(null)
+</script>

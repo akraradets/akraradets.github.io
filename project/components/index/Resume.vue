@@ -1,8 +1,8 @@
 <template>
-  <v-card flat prepend-icon="mdi-card-account-details">
-    <template v-slot:title>
+  <v-card flat>
+    <!-- <template v-slot:title>
       Present
-    </template>
+    </template> -->
     <v-card-item>
       <div class="d-flex ga-2">
         <v-chip variant="flat" color='error' prepend-icon="mdi-school">Ph.D.</v-chip>

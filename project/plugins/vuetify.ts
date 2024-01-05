@@ -12,16 +12,16 @@ import colors from 'vuetify/util/colors'
 
 const lightTheme: ThemeDefinition = {
   colors:{
-    primary: colors.pink.lighten2,
-    secondary: '#62f0c1',
+    primary: colors.brown.darken2,
+    secondary: colors.blueGrey.lighten1,
   }
 }
 
 const darkTheme: ThemeDefinition = {
   dark: true,
   colors:{
-    primary: colors.pink.darken2,
-    secondary: '#62f0c1',
+    primary: colors.brown.darken4,
+    secondary: colors.blueGrey.darken4,
   }
 }
 

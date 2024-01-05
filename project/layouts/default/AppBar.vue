@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar :elevation="2" color="primary">
+  <v-app-bar :elevation="2" color="primary" density="compact">
     <v-container class="mx-auto d-flex align-center justify-center">
       <!-- <v-app-bar-title> -->
       <v-icon icon="mdi-alpha-a-circle" />

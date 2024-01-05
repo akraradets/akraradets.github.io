@@ -13,7 +13,7 @@
         <v-row no-gutters>
           <v-col cols="12">
             <v-card>
-              <v-tabs v-model="tab" align-tabs="center">
+              <v-tabs color="primary-accent" v-model="tab" align-tabs="center">
                 <v-tab :value="1">Résumé</v-tab>
                 <v-tab :value="2">Academic</v-tab>
                 <v-tab :value="3">Work</v-tab>

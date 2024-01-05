@@ -21,7 +21,7 @@
       anything that brings a better thing to humans🧖🏻‍♂️.
 
       <br><br>
-      <b>Skill set</b>
+      <b>Skill set:</b>
       <li><b>Programming Language:</b> Python, Ruby, Java, C#, shell script</li>
       <li><b>System:</b> Proxmox, Bind9, OpenLDAP, TrueNAS, Docker, Traefik</li>
       <li><b>Web App:</b> Django, Ruby on Rail, Vue, Bootstrap, Vuetify</li>
@@ -46,11 +46,11 @@
 
       <br>
       <b>Highlighted Participation:</b>
-      <li>Initiate AIT student well-being survey report</li>
-      <li>Providing online/sound solution to SU Election open forum January 2021</li>
-      <li>Providing online/sound solution to SDG Open Hack Bangkok 2022</li>
-      <li>Providing online/sound solution to DSAI conference 2022</li>
-      <li>Implement/Maintain AIT Brainlab infrastructure including NAS, LDAP, Bind9, Traefik, JupyterHub, Docker, Promox
+      <li>🧾 Initiate AIT student well-being survey report</li>
+      <li>👷🏻 Providing online/sound solution to SU Election open forum January 2021</li>
+      <li>👷🏻 Providing online/sound solution to SDG Open Hack Bangkok 2022</li>
+      <li>👷🏻 Providing online/sound solution to DSAI conference 2022</li>
+      <li>🖥️ Implement/Maintain AIT Brainlab infrastructure including NAS, LDAP, Bind9, Traefik, JupyterHub, Docker, Promox
       </li>
       <li>📷 Media Chairperson of AIT Student Union in August 2019</li>
       <li>🎸 Represent Thailand Music Group in every semesters</li>

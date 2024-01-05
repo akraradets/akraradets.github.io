@@ -2,13 +2,18 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" sm="12" md="6" xl="4">
-       <IndexProfile></IndexProfile>
+        <IndexProfile></IndexProfile>
+        <v-row justify="center">
+          <div style="width:80px;height:80px;position:relative; margin-top: 15px;"><iframe
+              src="https://giphy.com/embed/gx54W1mSpeYMg" width="100%" height="100%" style="position:absolute"
+              frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+        </v-row>
       </v-col>
       <v-col cols="12" sm="12" md="6" xl="4">
         <v-row no-gutters>
           <v-col cols="12">
             <IndexPresent></IndexPresent>
-            
           </v-col>
         </v-row>
         <!-- <v-row>
@@ -47,4 +52,5 @@
 
       </v-col>
     </v-row>
-</v-container></template>
+  </v-container>
+</template>

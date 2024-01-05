@@ -60,6 +60,7 @@
                 <br>
                 <b>Participation:</b>
                 <li>Initiate AIT student well-being survey report</li>
+                <li>Providing online/sound solution to SU Election open forum January 2021</li>
                 <li>Providing online/sound solution to SDG Open Hack Bangkok 2022</li>
                 <li>Providing online/sound solution to DSAI conference 2022</li>
                 <li>Implement/Maintain AIT Brainlab infrastructure including NAS, LDAP, Bind9, Traefik, JupyterHub, Docker</li>

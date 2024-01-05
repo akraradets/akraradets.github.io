@@ -12,8 +12,10 @@ import colors from 'vuetify/util/colors'
 
 const lightTheme: ThemeDefinition = {
   colors:{
-    primary: colors.brown.darken2,
-    secondary: colors.blueGrey.lighten1,
+    primary: colors.amber.darken2,
+    "primary-accent": colors.amber.lighten2,
+    secondary: colors.indigo.darken3,
+    
   }
 }
 
@@ -21,6 +23,7 @@ const darkTheme: ThemeDefinition = {
   dark: true,
   colors:{
     primary: colors.brown.darken4,
+    "primary-accent": colors.brown.lighten2,
     secondary: colors.blueGrey.darken4,
   }
 }

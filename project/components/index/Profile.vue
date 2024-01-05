@@ -7,10 +7,10 @@
           <div class="text-h4 text-center" style="margin-top:300px; color: white; margin-top: 700px;">
             Akraradet Sinsamersuk
           </div>
-          <div class="text-subtitle-1 text-center text-indigo-lighten-3 font-weight-bold" style="margin-top: 10px;">
+          <div class="text-subtitle-1 text-center text-primary-accent font-weight-bold" style="margin-top: 10px;">
             PhD Student ＠ AIT
           </div>
-          <div class="text-center font-weight-bold text-indigo-lighten-3" style="font-size: 0.7rem;">
+          <div class="text-center font-weight-bold text-primary-accent mx-5" style="font-size: 0.7rem; ">
             also
             <br>
             Programmer, System Engineer, Software Engineer, Fullstack Developer, Machine/Deep Learning Developer,

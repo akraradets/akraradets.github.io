@@ -1,0 +1,1 @@
+import{V as o}from"./VMain.k7BJoTMY.js";import{f as t,ag as r,g as a,w as n,o as s,b as _}from"./entry.fHN6DnTH.js";const f=t({__name:"View",setup(c){return(p,i)=>{const e=r("router-view");return s(),a(o,null,{default:n(()=>[_(e)]),_:1})}}});export{f as _};

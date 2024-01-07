@@ -1,7 +1,7 @@
 <template>
   <v-main>
-    <v-btn class="hidden-lg-and-up pull-btn" icon="mdi-menu" @click.stop="drawer = !drawer"></v-btn>
-    <v-navigation-drawer mobile-breakpoint="lg" v-model="drawer">
+    <!-- <v-btn class="hidden-lg-and-up pull-btn" icon="mdi-menu" @click.stop="drawer = !drawer"></v-btn> -->
+    <v-navigation-drawer mobile-breakpoint="lg" v-model="store.isOpen" floating>
       <!-- <v-list-item title="My Application" subtitle="Vuetify"></v-list-item>
       <v-divider></v-divider> -->
 
@@ -18,8 +18,8 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
-const drawer = ref(false)
+import { useDrawerStore } from '@/stores/drawer'
+const store = useDrawerStore()
 
 const admins = [
   ['Management', 'mdi-account-multiple-outline'],

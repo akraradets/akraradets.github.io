@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
+  extends: '@nuxt-themes/typography',
   modules: [
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
@@ -13,8 +14,20 @@ export default defineNuxtConfig({
       })
     },
     '@nuxt/content',
+    '@pinia/nuxt',
   ],
-
+  content: {
+    highlight: {
+      theme: {
+        // Default theme (same as single string)
+        default: 'github-light',
+        // Theme used if `html.dark`
+        dark: 'github-dark',
+        // Theme used if `html.sepia`
+        sepia: 'monokai'
+      }
+    }
+  },
   vite: {
     vue: {
       template: {

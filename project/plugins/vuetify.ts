@@ -25,6 +25,7 @@ const darkTheme: ThemeDefinition = {
     primary: colors.brown.darken4,
     "primary-accent": colors.brown.lighten2,
     secondary: colors.blueGrey.darken4,
+    background: "#182729"
   }
 }
 

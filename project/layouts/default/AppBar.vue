@@ -2,8 +2,9 @@
   <v-app-bar :elevation="2" color="primary" density="compact">
     <v-container class="mx-auto d-flex align-center justify-center">
       <!-- <v-app-bar-title> -->
-      <v-icon icon="mdi-alpha-a-circle" />
-      <v-icon icon="mdi-alpha-s-box-outline" />
+        <v-btn class="hidden-lg-and-up pull-btn" icon="mdi-menu" @click.stop="store.isOpen = !store.isOpen; console.log(store.isOpen)"></v-btn>
+        <v-icon icon="mdi-alpha-a-circle" />
+        <v-icon icon="mdi-alpha-s-box-outline" />
       <!-- </v-app-bar-title> -->
       
       <v-btn href="/">Home</v-btn>
@@ -37,6 +38,8 @@
 import { useTheme } from 'vuetify';
 import { useCookie } from 'nuxt/app'
 import { onMounted } from 'vue';
+import { useDrawerStore } from '@/stores/drawer'
+const store = useDrawerStore();
 
 const theme = useTheme();
 const cookie = useCookie<string>('theme');

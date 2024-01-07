@@ -1,5 +1,4 @@
 <template>
-  <p>{{ $route.params.slug }}</p>
   <ContentDoc />
 </template>
 

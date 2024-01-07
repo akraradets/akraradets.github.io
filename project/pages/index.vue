@@ -30,7 +30,7 @@
                 <v-window-item :key=3 :value=3>
                   Insert Work life
                 </v-window-item>
-                <v-window-item :key=4 :value=3>
+                <v-window-item :key=4 :value=4>
                   Insert Hobby
                 </v-window-item>
               </v-window>

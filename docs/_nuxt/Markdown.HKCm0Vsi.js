@@ -1,0 +1,1 @@
+import r from"./ContentSlot.8_rsCHCD.js";import{f as o,Z as f,k as u,a6 as c}from"./entry.npTP50ou.js";const i=o({name:"Markdown",extends:r,setup(t){const{parent:e}=c(),{between:n,default:a}=f(),s=u(()=>typeof t.unwrap=="string"?t.unwrap.split(" "):["*"]);return{fallbackSlot:a,tags:s,between:n,parent:e}}});export{i as default};

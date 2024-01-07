@@ -7,6 +7,7 @@
       <!-- </v-app-bar-title> -->
       
       <v-btn href="/">Home</v-btn>
+      <v-btn href="/projects">Projects</v-btn>
       <v-btn href="/document">Document</v-btn>
       <v-spacer></v-spacer>
 
